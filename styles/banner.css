@@ -1,0 +1,87 @@
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+    --Laranja: #EB9B00;
+    --FontePrimaria: 'Poppins', sans-serif;
+    --degrade-zul: linear-gradient(to right, #002F52 35.49%, #326589 165.37%);
+
+}   /* --nome-variavel: linear-gradient "((x)orientação-deg, COR1 (x)%, COR2 (y)% */
+
+/*  Criado durante minha tentativa, sem auxilio
+    .container-titulo-texto {
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.625em;
+}
+
+.container-titulo-botao {
+    text-align: center;
+    font-family: var(--FontePrimaria);
+    font-size: 0.875em;
+    border-radius: 1.5em;
+    font-weight: 100;
+    color: var(--branco);
+    background-color: transparent;
+    border: solid 0.063em;
+    padding: 0.313em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 0.313em;
+    background-image: url("/Alurabooks/assets/Pesquisa.svg");
+    background-repeat: no-repeat;
+    background-position: start;
+    background-position-x: 15px;
+    background-position-y: 3px;
+    margin-top: 10px;
+    align-items: center;
+}
+ 
+*/
+
+.banner {
+    background: var(--degrade-zul);
+    color: var(--branco);
+    text-align: center;
+    padding: 2.5em 2em;
+}
+
+.banner__titulo {
+    font-weight: 700;
+    font-size: 1.125em;
+}
+
+.banner__texto {
+    font-weight: 100;
+    margin: 1em 0;
+}
+
+/* .banner__pesquisa < classe da barra de pesquisa 
+  background-color: transparent; < torna toda barra transparente, ou seja a cor de fundo vai saltar a barra 
+  border: 1px solid var(--branco); < define a borda desse objeto como Solid(linha continua) puxando a variavel cor branca, puxada do root
+  color: var(--branco); < define a cor do texto ou placeholder que está contido no objeto
+  background: url("../img/lupa/svg") no repeat: < puxa a imagem pelo css (já que nao vai ter interação, com caminho url + a declaração NO REPEAT, evitando que a imagem se repita em todo o objeto.	
+  background-position: < Posição da imagem coloca no URL em relação ao texto / placeholder 	 */ 
+
+  .banner__pesquisa {
+    background-color: transparent;
+    border: 0.063em solid var(--branco);
+    color: var(--branco);
+    border-radius: 1.5em;
+    padding: 1em;
+    width: 100%;
+    
+  }
+
+  .banner__pesquisa::placeholder {
+    color: var(--branco);
+    font-size: 0.875em;
+    font-weight: 400;
+    text-align: center;
+    background: url("/Alurabooks/assets/Lupa.svg") no-repeat;
+    background-position: 2em;
+    font-family: var(--FontePrimaria);
+    
+    
+  }

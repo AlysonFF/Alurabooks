@@ -1,0 +1,17 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+    --Laranja: #EB9B00;
+    --FontePrimaria: 'Poppins', sans-serif;
+    
+}   /* --nome-variavel: linear-gradient "((x)orientação-deg, COR1 (x)%, COR2 (y)% */
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--FontePrimaria);
+    font-size: 16px;
+    font-weight: 400;
+}   

@@ -1,0 +1,115 @@
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+    --Laranja: #EB9B00;
+    --FontePrimaria: 'Poppins', sans-serif;
+    
+    /* --nome-variavel: linear-gradient "((x)orientação-deg, COR1 (x)%, COR2 (y)% */
+}
+
+.cabeçalho__menu-hamburguer {
+    width: 1.5em;
+    height: 1.5em;
+    background-image: url("/Alurabooks/assets/Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.cabeçalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container__imagem {
+    padding: 1em;
+}
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+.container__botao:checked ~ .lista-menu {
+    display: block;
+}
+
+.container__botao {
+    display: none;
+}
+
+.lista-menu__titulo, .lista-menu__item {
+    padding: 1em;
+    background-color: var(--branco);
+}
+
+.lista-menu__link {
+    text-decoration: none;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(to right, #002F52, #326589);
+    -webkit-background-clip: text;
+    
+}
+
+/*  Degrade do texto menu feito sem auxilio 
+
+    .lista-menu__link {
+    text-decoration: none;
+    font-family: var(--FontePrimaria);
+    font-weight: 400;
+    font-size: 1em;
+    background: linear-gradient(to right, #002F52, #326589);
+    -webkit-background-clip: text;
+    
+
+} */
+
+
+
+.lista-menu__titulo {
+    color: var(--Laranja);
+    font-family: var(--FontePrimaria);
+    font-weight: 700;
+    font-size: 1em;
+}
+
+/*  Fundo degrade da CTA feito sem auxilio 
+    
+    .container-titulo-principal {
+    background: linear-gradient(to right,#002F52, #326589 );
+} */ 
+
+.container-titulo-principal {
+    background: linear-gradient(to right,#002F52, #326589 );
+}
+
+.texto-superior {
+    font-family: var(--FontePrimaria);
+    font-weight: 700;
+    font-size: 1.125em;
+    color: var(--branco);
+    text-align: center;
+}
+
+.texto-superior-abaixo {
+    font-family: var(--FontePrimaria);
+    font-size: 1em;
+    font-weight: 400;
+    color: var(--branco);
+    text-align: center;
+}
+
+
+
+
+

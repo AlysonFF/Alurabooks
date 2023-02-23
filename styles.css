@@ -1,11 +1,15 @@
 @import url("styles/header.css");
 @import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
 
 :root {
     --cor-de-fundo: #EBECEE;
     --branco: #FFFFFF;
     --Laranja: #EB9B00;
+    --Azul: #002F52;
     --FontePrimaria: 'Poppins', sans-serif;
+    --degrade-zul: linear-gradient(to right, #002F52 35.49%, #326589 165.37%);
     
 }   /* --nome-variavel: linear-gradient "((x)orientação-deg, COR1 (x)%, COR2 (y)% */
 

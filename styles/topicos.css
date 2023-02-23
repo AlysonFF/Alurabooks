@@ -1,0 +1,15 @@
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+    --Laranja: #EB9B00;
+    --Azul: #002F52;
+    --degrade-zul: linear-gradient(to right, #002F52 35.49%, #326589 165.37%);
+    --FontePrimaria: 'Poppins', sans-serif; }
+
+
+
+.topicos__link {
+    text-decoration: none;
+}
+
+

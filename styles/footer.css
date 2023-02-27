@@ -1,0 +1,57 @@
+.contato {
+    background-color: var(--branco);
+    padding: 1.5em 1.5em;
+    text-align: start;
+    
+}
+
+.contato__titulo {
+    color: var(--Azul);
+    font-weight: 500;
+}
+
+.contato__texto {
+    color: var(--Azul);
+    margin: 1em 0em 1.5em
+}
+
+.contato__email {
+    background-color: transparent;
+    color: var(--Azul);
+    border: 0.063em solid var(--Azul);
+    border-radius: 1.5em;
+    padding: 1em;
+    width: 100%;
+}
+
+.contato__email::placeholder {
+    color: var(--Azul);
+    font-weight: 400;
+    font-size: 1em;
+    background: url("/Alurabooks/assets/Email.svg") no-repeat;
+    font-family: var(--FontePrimaria);
+    background-position: 0.625em;
+    padding-left: 14%;
+}
+
+
+@media screen and (width >= 1024px) {
+    .contato {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contato__descricao {
+        margin-right: 1em;
+        width: 30%;
+    }
+
+    .contato__email {
+        width: 30%;
+    }
+
+    .contato__titulo {
+        font-size: 1.5em ;
+    }
+}

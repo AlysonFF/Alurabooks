@@ -124,6 +124,19 @@
     width: auto;
 }
 
+.container__texto {
+    display: none;
+}
+
+.container__botao:checked ~ .container__rotulo > .cabeçalho__menu-hamburguer {
+    background-image: url("/Alurabooks/assets/Menu\ Aberto.png");
+}
+
+.container__botao:checked ~ .container__rotulo {
+    background: var(--degrade-zul);
+}
+
+
 
 
 @media screen and (width >= 1024px) { 
@@ -162,14 +175,61 @@
 
         .cabeçalho__menu-hamburguer {
             display: none;
+            
         }
 
         .opcao__botao {
             display: none;
         }
 
+        .opcao__botao:checked ~ .opcao__rotulo > .opcao__item {
+            background: var(--degrade-zul);
+            color: var(--branco);
+        }
+
+        .opcao__item {
+            padding: 2em 1em;
+        }
+
+        .lista-menu__item:hover {
+            background: var(--degrade-zul);
+
+        }
+
+        .lista-menu__item:hover > .lista-menu__link {
+            -webkit-text-fill-color: var(--branco);
+            text-decoration: none;
+        }
+
 
 }
+
+@media screen and (width >= 1728px) {
+
+    .container__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        
+    }
+
+    .cabeçalho {
+        padding: 0em 2em;
+    }
+
+    .opcao {
+        margin-right: 550px;
+    }
+
+    .container__texto {
+        display: block;
+    }
+
+}
+
+
+
+
 
 
 

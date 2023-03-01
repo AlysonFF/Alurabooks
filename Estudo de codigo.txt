@@ -1,0 +1,15 @@
+Linha 18 - Adição da fonte Josefin Sans 400 e 700
+
+Linha 49 - Criado titulo da logo após a imagem com tag H1 e B separando assim a palavra normal e negrito
+    
+    130 - CSS foi atribuido para as duas classes container__titulo e container__negrito os seguintes atributos: 
+        font-family
+        font-size
+
+    138 - CSS O container__titulo usa display:block; pois assim o mesmo pode aparecer com 100% da linha utilizada podendo também ser ajustado em width e height
+
+    block - um a abaixo do outro 
+
+    inline - um ao lado do outro sem possibilidade de alterar width ou height
+
+    inline-block - um ao lado do outro tendo a possibilidade de alterar width ou height
